@@ -1,4 +1,4 @@
-export enum ExpenseType {
+export enum ExpenseCategory {
   market = "Mercado",
   waterBill = "Factura de agua",
   electricBill = "Factura de Luz",

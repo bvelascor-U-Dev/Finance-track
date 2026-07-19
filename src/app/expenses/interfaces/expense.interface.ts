@@ -1,9 +1,10 @@
-import { ExpenseType } from "./categoryExpense.enum"
+import { ExpenseCategory } from "./expenseCategory.enum"
+
 
 export interface ExpenseInterface {
   descripion: string,
   value: number,
-  category: ExpenseType
+  category: ExpenseCategory
   date: Date,
   type: "Obligatory" | "Optional"
 }
