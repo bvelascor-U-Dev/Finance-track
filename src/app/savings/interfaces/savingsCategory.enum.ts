@@ -1,4 +1,4 @@
-export enum SavesCategory{
+export enum SavingsCategory{
 travels = "Viajes",
 investments = "Inversiones",
 familyFund = "Fondo familiar",

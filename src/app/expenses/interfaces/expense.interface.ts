@@ -2,7 +2,8 @@ import { ExpenseCategory } from "./expenseCategory.enum"
 
 
 export interface ExpenseInterface {
-  descripion: string,
+  id: string,
+  description: string,
   value: number,
   category: ExpenseCategory
   date: Date,
